@@ -1,0 +1,12 @@
+<suite name="EcommerceSuite"  >
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+
+            <class name="Tests.PlaceOrderPageTest"/>
+
+        </classes>
+    </test>
+
+
+</suite>
